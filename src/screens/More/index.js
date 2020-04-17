@@ -12,6 +12,8 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 import ProfileScreen from "./Profile";
 import { FAQScreen } from "./FAQ";
+import { DonateScreen } from "./Donate";
+import { ContactScreen } from "./Contact";
 
 import { styles } from "../../styles";
 
@@ -47,7 +49,9 @@ class MoreScreenOptions extends React.Component {
           </ImageBackground>
         </TouchableHighlight>
         <TouchableHighlight
-          onPress={()=> WebBrowser.openBrowserAsync('https://danceblue.networkforgood.com')}
+        onPress={() => {
+          navigate("Donate");
+        }}
           style={styles.button}
         >
           <ImageBackground
@@ -63,7 +67,9 @@ class MoreScreenOptions extends React.Component {
           </ImageBackground>
         </TouchableHighlight>
         <TouchableHighlight
-          onPress={()=> WebBrowser.openBrowserAsync('http://www.danceblue.org/frequently-asked-questions/')}
+        onPress={() => {
+          navigate("FAQ");
+        }}
           style={styles.button}
         >
           <ImageBackground
@@ -79,7 +85,9 @@ class MoreScreenOptions extends React.Component {
           </ImageBackground>
         </TouchableHighlight>
         <TouchableHighlight
-          onPress={()=> WebBrowser.openBrowserAsync('https://www.danceblue.org/meet-the-team/')}
+        onPress={() => {
+          navigate("Contact");
+        }}
           style={styles.button}
         >
           <ImageBackground
@@ -112,6 +120,8 @@ export class MoreScreen extends React.Component {
         <Stack.Screen name="More Options" component={MoreScreenOptions} />
         <Stack.Screen name="Profile" component={ProfileScreen} />
         <Stack.Screen name="FAQ" component={FAQScreen} />
+        <Stack.Screen name="Donate" component={DonateScreen} />
+        <Stack.Screen name="Contact" component={ContactScreen} />
       </Stack.Navigator>
     );
   }
