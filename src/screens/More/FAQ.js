@@ -13,10 +13,15 @@ export class FAQScreen extends React.Component {
       document.querySelector(".fusion-footer").style.display = "none"
       document.querySelector("#main").style.paddingTop = "5px"
       document.querySelectorAll(".tab-link").forEach(tab => {
-      tab.addEventListener("click", () => {
-        setTimeout(() => document.querySelector("header").style.display = "none", 353)
+        tab.addEventListener("click", () => {
+          setTimeout(() => document.querySelector("header").style.display = "none", 353)
+        })
       })
-})
+      document.querySelectorAll(".fusion-faq-post").forEach(post => {
+        post.addEventListener("click", () => {
+          setTimeout(() => document.querySelector("header").style.display = "none", 370)
+        })
+      })
     `;
 
     return (
