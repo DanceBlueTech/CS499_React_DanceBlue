@@ -3,6 +3,7 @@ import { View, ImageBackground, Image, StyleSheet } from "react-native";
 import background_img from "../../../assets/home/db20_ribbon.jpg";
 import db_logo from "../../../assets/home/DB_Primary_Logo-01.png";
 
+//Loads up the header image that shows at the top of home page 
 const HeaderImage = props => {
   return (
     <View style={styles.shadowsStyling}>
@@ -15,6 +16,7 @@ const HeaderImage = props => {
   );
 };
 
+//Styles for the component
 const styles = StyleSheet.create({
   container: {
     height: '100%',

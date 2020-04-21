@@ -10,6 +10,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import IconBadge from "react-native-icon-badge";
 import bdubs from "../../../assets/events/BDubs.jpg";
 
+// Each event will load with data imported from Firebase
 export default class Event extends Component {
   constructor(props) {
     super(props);
@@ -95,6 +96,7 @@ export default class Event extends Component {
   }
 }
 
+//Styles for the component
 const styles = StyleSheet.create({
   container: {
     height:175,

@@ -1,6 +1,7 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
 
+// Each Announcement will render individually, but for now added via hardcode
 const Announcements = props => {
   return (
     <View style={styles.shadowsStyling}>
@@ -34,6 +35,7 @@ const Announcements = props => {
   );
 };
 
+//Styles for the file
 const styles = StyleSheet.create({
   announcementView: {
     paddingLeft: 5,
