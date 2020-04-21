@@ -3,8 +3,6 @@ import React from "react";
 import { View } from "react-native";
 import { Text, Button } from "react-native-elements";
 
-import SignUpForm from "../../components/SignUpForm";
-import LoginForm from "../../components/LoginForm";
 
 import { withFirebaseHOC } from "../../../config/Firebase";
 
@@ -50,11 +48,9 @@ class ProfileScreen extends React.Component {
             <Text h2 style={{ textAlign: "center" }}>
               Sign Up
             </Text>
-            <SignUpForm />
             <Text h2 style={{ textAlign: "center" }}>
               Login
             </Text>
-            <LoginForm />
           </View>
         )}
       </>

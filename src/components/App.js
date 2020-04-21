@@ -16,7 +16,7 @@ import { MoreScreen } from "../screens/More";
 
 // Import Firebase Context Provider
 import Firebase, { FirebaseProvider } from "../../config/Firebase";
-
+/*
 // Fix firestore error - can be removed if issue is resolved in package
 import { decode, encode } from "base-64";
 if (!global.btoa) {
@@ -25,7 +25,7 @@ if (!global.btoa) {
 if (!global.atob) {
   global.atob = decode;
 }
-
+*/
 // Bottom tab navigator config
 const Tab = createBottomTabNavigator();
 
