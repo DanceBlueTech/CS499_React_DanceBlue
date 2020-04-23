@@ -114,7 +114,7 @@ export class MoreScreen extends React.Component {
     title: "More"
   };
   render() {
-    const { navigate } = this.props.navigation;
+    // const { navigate } = this.props.navigation;
     return (
       <Stack.Navigator>
         <Stack.Screen name="More Options" component={MoreScreenOptions} />

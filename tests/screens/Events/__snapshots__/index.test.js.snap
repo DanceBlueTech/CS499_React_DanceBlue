@@ -1,0 +1,771 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Events page correctly 1`] = `
+<RCTScrollView
+  showsVerticalScrollIndicator={false}
+>
+  <View>
+    <RCTSafeAreaView
+      emulateUnlessSupported={true}
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginTop": 5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "flex-start",
+            "borderBottomColor": "#0033A0",
+            "borderBottomWidth": 2,
+            "marginBottom": 13,
+            "marginLeft": 5,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 24,
+              "fontWeight": "bold",
+            }
+          }
+        >
+           TODAY'S EVENTS 
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {},
+            Object {},
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 15,
+              "height": 175,
+              "marginBottom": 10,
+              "overflow": "hidden",
+              "width": "95%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 60,
+                "flexDirection": "row",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flex": 13,
+                  "paddingLeft": 8,
+                  "paddingRight": 2,
+                  "paddingVertical": 4,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "flex-start",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 3,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    adjustsFontSizeToFit={true}
+                    numberOfLines={2}
+                    style={
+                      Object {
+                        "fontSize": 30,
+                        "fontWeight": "bold",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Buffalo Wild Wings Restaurant Night
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "gray",
+                        "fontSize": 12,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    January 1 
+                    •
+                     11am-11:30pm
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderTopColor": "#0033A0",
+                    "borderTopWidth": 2,
+                    "flex": 1,
+                    "justifyContent": "flex-start",
+                    "paddingTop": 2,
+                  }
+                }
+              >
+                <Text
+                  adjustsFontSizeToFit={true}
+                  numberOfLines={3}
+                  style={
+                    Object {
+                      "fontSize": 14,
+                      "textAlign": "left",
+                    }
+                  }
+                >
+                  Support the Chaarg DanceBlue Team and earn one spirit point!
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "borderRadius": 15,
+                  "flex": 6,
+                  "height": "92%",
+                  "marginRight": 5,
+                  "overflow": "hidden",
+                  "width": "100%",
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": null,
+                    "resizeMode": "cover",
+                    "width": null,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 20,
+                "flexDirection": "row",
+                "justifyContent": "space-evenly",
+                "marginTop": -10,
+                "padding": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 3,
+                  "shadowColor": "rgba(0,0,0, .4)",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 1,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "width": 100,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderColor": "#2089dc",
+                      "borderRadius": 3,
+                      "borderWidth": 0.5,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 3,
+                  "shadowColor": "rgba(0,0,0, .4)",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 1,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "width": 100,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderColor": "#2089dc",
+                      "borderRadius": 3,
+                      "borderWidth": 0.5,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 3,
+                  "shadowColor": "rgba(0,0,0, .4)",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 1,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "width": 100,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderColor": "#2089dc",
+                      "borderRadius": 3,
+                      "borderWidth": 0.5,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FF0000",
+                "borderRadius": 15,
+                "height": 20,
+                "justifyContent": "center",
+                "minWidth": 20,
+                "position": "absolute",
+                "right": 1,
+                "top": 1,
+              },
+              Object {
+                "backgroundColor": "gold",
+                "borderRadius": 20,
+                "borderWidth": 1,
+                "height": 40,
+                "right": -5,
+                "top": -8,
+                "width": 40,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 24,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            1
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignSelf": "flex-start",
+            "borderBottomColor": "#0033A0",
+            "borderBottomWidth": 2,
+            "marginBottom": 13,
+            "marginLeft": 5,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 24,
+              "fontWeight": "bold",
+            }
+          }
+        >
+           COMING UP 
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {},
+            Object {},
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 15,
+              "height": 175,
+              "marginBottom": 10,
+              "overflow": "hidden",
+              "width": "95%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 60,
+                "flexDirection": "row",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flex": 13,
+                  "paddingLeft": 8,
+                  "paddingRight": 2,
+                  "paddingVertical": 4,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "flex-start",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 3,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    adjustsFontSizeToFit={true}
+                    numberOfLines={2}
+                    style={
+                      Object {
+                        "fontSize": 30,
+                        "fontWeight": "bold",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Buffalo Wild Wings Restaurant Night
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "gray",
+                        "fontSize": 12,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    January 1 
+                    •
+                     11am-11:30pm
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderTopColor": "#0033A0",
+                    "borderTopWidth": 2,
+                    "flex": 1,
+                    "justifyContent": "flex-start",
+                    "paddingTop": 2,
+                  }
+                }
+              >
+                <Text
+                  adjustsFontSizeToFit={true}
+                  numberOfLines={3}
+                  style={
+                    Object {
+                      "fontSize": 14,
+                      "textAlign": "left",
+                    }
+                  }
+                >
+                  Support the Chaarg DanceBlue Team and earn one spirit point!
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "borderRadius": 15,
+                  "flex": 6,
+                  "height": "92%",
+                  "marginRight": 5,
+                  "overflow": "hidden",
+                  "width": "100%",
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": null,
+                    "resizeMode": "cover",
+                    "width": null,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 20,
+                "flexDirection": "row",
+                "justifyContent": "space-evenly",
+                "marginTop": -10,
+                "padding": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 3,
+                  "shadowColor": "rgba(0,0,0, .4)",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 1,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "width": 100,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderColor": "#2089dc",
+                      "borderRadius": 3,
+                      "borderWidth": 0.5,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 3,
+                  "shadowColor": "rgba(0,0,0, .4)",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 1,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "width": 100,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderColor": "#2089dc",
+                      "borderRadius": 3,
+                      "borderWidth": 0.5,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 3,
+                  "shadowColor": "rgba(0,0,0, .4)",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 1,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "width": 100,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderColor": "#2089dc",
+                      "borderRadius": 3,
+                      "borderWidth": 0.5,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FF0000",
+                "borderRadius": 15,
+                "height": 20,
+                "justifyContent": "center",
+                "minWidth": 20,
+                "position": "absolute",
+                "right": 1,
+                "top": 1,
+              },
+              Object {
+                "backgroundColor": "gold",
+                "borderRadius": 20,
+                "borderWidth": 1,
+                "height": 40,
+                "right": -5,
+                "top": -8,
+                "width": 40,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 24,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            1
+          </Text>
+        </View>
+      </View>
+    </RCTSafeAreaView>
+  </View>
+</RCTScrollView>
+`;
