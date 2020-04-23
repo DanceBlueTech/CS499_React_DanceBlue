@@ -12,8 +12,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-   cd app
-   yarn install
+   npm install
    
    npm install -g expo-cli
    npm install -g turtle-cli
