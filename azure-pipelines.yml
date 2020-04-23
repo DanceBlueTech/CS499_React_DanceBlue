@@ -1,0 +1,54 @@
+
+# Expo Build
+
+pool:
+  vmImage: 'macOS-latest'
+
+steps:
+- task: NodeTool@0
+  inputs: 
+   versionSpec: '10.x'
+   
+  displayName: 'Install Node.js'
+
+- script: |
+   cd app
+   yarn install
+   
+   npm install -g expo-cli
+   npm install -g turtle-cli
+   npx expo login -u $(EXPO_CLI_USER) -p $(EXPO_CLI_PASSWORD) 
+   
+   npx expo publish --non-interactive --release-channel deployment
+   
+   turtle setup:ios
+   EXPO_IOS_DIST_P12_PASSWORD=$(EXPO_IOS_DIST_P12_PASSWORD) turtle build:ios -u $(EXPO_CLI_USER) -p $(EXPO_CLI_PASSWORD) --team-id $(Apple-Team-Id) --dist-p12-path <p12_path> --provisioning-profile-path <provision_path> --release-channel deployment
+   turtle setup:android
+   EXPO_ANDROID_KEYSTORE_PASSWORD=$(EXPO_ANDROID_KEYSTORE_PASSWORD) EXPO_ANDROID_KEY_PASSWORD=$(EXPO_ANDROID_KEY_PASSWORD) turtle build:android -u $(EXPO_CLI_USER) -p $(EXPO_CLI_PASSWORD) --keystore-path <keystore_path> --keystore-alias $(keystore-alias) -t apk --release-channel deployment 
+   
+   cd /users/vsts/expo-apps
+   export A=$(ls *.apk)
+   export i=$(ls *.ipa)
+   echo "##vso[task.setvariable variable=iosArtifact]$i"
+   echo "##vso[task.setvariable variable=androidArtifact]$A"
+   echo "File name to publish Android"
+   echo $A
+   echo "File name to publish IOS"
+   echo $i
+  displayName: 'npm install and Expo & turtle build'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: "/users/vsts/expo-apps/$(iosArtifact)"
+    ArtifactName: 'ios'
+    publishLocation: 'Container'
+    
+  displayName: 'Publish IOS'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: "/users/vsts/expo-apps/$(androidArtifact)"
+    ArtifactName: 'android'
+    publishLocation: 'Container'
+    
+  displayName: 'Publish Android'
