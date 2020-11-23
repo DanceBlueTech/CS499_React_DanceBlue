@@ -8,6 +8,7 @@ import {
   SafeAreaView
 } from "react-native";
 import * as WebBrowser from 'expo-web-browser';
+import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from "@react-navigation/stack";
 
 import ProfileScreen from "./Profile";
@@ -26,13 +27,11 @@ const contactButtonImage = require("./Contact_Button.jpg");
 
 class MoreScreenOptions extends React.Component {
   render() {
-    const { navigate } = this.props.navigation;
     return (
       <>
       <SafeAreaView style={{flex: 1}}>
         <TouchableHighlight
           onPress={() => {
-            navigate("Profile");
           }}
           style={styles.button}
         >
@@ -50,7 +49,6 @@ class MoreScreenOptions extends React.Component {
         </TouchableHighlight>
         <TouchableHighlight
         onPress={() => {
-          navigate("Donate");
         }}
           style={styles.button}
         >
@@ -68,7 +66,6 @@ class MoreScreenOptions extends React.Component {
         </TouchableHighlight>
         <TouchableHighlight
         onPress={() => {
-          navigate("FAQ");
         }}
           style={styles.button}
         >
@@ -86,7 +83,6 @@ class MoreScreenOptions extends React.Component {
         </TouchableHighlight>
         <TouchableHighlight
         onPress={() => {
-          navigate("Contact");
         }}
           style={styles.button}
         >
@@ -114,15 +110,17 @@ export class MoreScreen extends React.Component {
     title: "More"
   };
   render() {
-    const { navigate } = this.props.navigation;
+    const  navigate  = this.props.navigation;
     return (
-      <Stack.Navigator>
-        <Stack.Screen name="More Options" component={MoreScreenOptions} />
-        <Stack.Screen name="Profile" component={ProfileScreen} />
-        <Stack.Screen name="FAQ" component={FAQScreen} />
-        <Stack.Screen name="Donate" component={DonateScreen} />
-        <Stack.Screen name="Contact" component={ContactScreen} />
-      </Stack.Navigator>
+        <NavigationContainer>
+          <Stack.Navigator>
+            <Stack.Screen name="More Options" component={MoreScreenOptions} />
+            <Stack.Screen name="Profile" component={ProfileScreen} />
+            <Stack.Screen name="FAQ" component={FAQScreen} />
+            <Stack.Screen name="Donate" component={DonateScreen} />
+            <Stack.Screen name="Contact" component={ContactScreen} />
+          </Stack.Navigator>
+        </NavigationContainer>
     );
   }
 }

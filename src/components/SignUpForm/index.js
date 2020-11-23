@@ -23,8 +23,7 @@ class SignUpForm extends React.Component {
       .signupWithEmail(email, password)
       .then(res => {
         const { uid } = res.user;
-        const team = "0"
-        const userData = { email, name, uid, team };
+        const userData = { email, name, uid };
         this.props.firebase.createNewUser(userData).then(() => {
           if (this.props.navigate) this.props.navigate();
         });

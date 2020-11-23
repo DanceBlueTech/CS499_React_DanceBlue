@@ -5,7 +5,11 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.10",
@@ -16,12 +20,11 @@
     "base-64": "^0.1.0",
     "expo": "^39.0.0",
     "expo-web-browser": "~8.5.0",
-    "firebase": "^8.0.0",
+    "firebase": "7.9.0",
     "formik": "^2.1.4",
-    "node": "^15.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-native": "^0.63.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
     "react-native-anchor-carousel": "^3.1.2",
     "react-native-countdown-component": "^2.7.1",
     "react-native-elements": "^1.2.7",
@@ -36,6 +39,13 @@
     "react-native-windows": "^0.61.15",
     "recompose": "^0.30.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "babel-jest": "^26.6.2",
+    "@babel/core": "^7.0.0",
+    "babel-preset-expo": "^8.1.0",
+    "jest-expo": "^37.0.0",
+    "react-test-renderer": "^16.13.1"
+  },
   "private": true
 }

@@ -1,0 +1,834 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Events page correctly 1`] = `
+<RCTScrollView
+  showsVerticalScrollIndicator={false}
+>
+  <View>
+    <RCTSafeAreaView
+      emulateUnlessSupported={true}
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginTop": 5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "borderBottomColor": "#0033A0",
+              "borderBottomWidth": 2,
+              "marginBottom": 13,
+              "marginLeft": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontSize": 24,
+                "fontWeight": "bold",
+              }
+            }
+          >
+             TODAYS EVENTS 
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "borderBottomColor": "#0033A0",
+              "borderBottomWidth": 2,
+              "marginBottom": 13,
+              "marginLeft": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontSize": 24,
+                "fontWeight": "bold",
+              }
+            }
+          >
+             COMING UP 
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 15,
+              "marginBottom": 5,
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": 5,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 60,
+                "flexDirection": "row",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flex": 13,
+                  "paddingLeft": 8,
+                  "paddingRight": 2,
+                  "paddingVertical": 4,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "flex-start",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flex": 3,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    adjustsFontSizeToFit={true}
+                    numberOfLines={2}
+                    style={
+                      Object {
+                        "fontSize": 30,
+                        "fontWeight": "bold",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Jimmy John's Restaurant Night
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "gray",
+                        "fontSize": 12,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    January 1 11am
+                     - 
+                    January 1 11:30pm
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderTopColor": "#0033A0",
+                    "borderTopWidth": 2,
+                    "flex": 1,
+                    "justifyContent": "flex-start",
+                    "paddingTop": 2,
+                  }
+                }
+              >
+                <Text
+                  adjustsFontSizeToFit={true}
+                  numberOfLines={3}
+                  style={
+                    Object {
+                      "fontSize": 14,
+                      "textAlign": "left",
+                    }
+                  }
+                >
+                  Support the Chaarg DanceBlue Team and earn one spirit point! We need 3 lines!
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "borderRadius": 15,
+                  "flex": 6,
+                  "height": "92%",
+                  "marginRight": 5,
+                  "overflow": "hidden",
+                  "width": "100%",
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": null,
+                    "resizeMode": "cover",
+                    "width": null,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 20,
+                "flexDirection": "row",
+                "justifyContent": "space-evenly",
+                "marginTop": -10,
+                "padding": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 3,
+                  "shadowColor": "rgba(0,0,0, .4)",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 1,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "width": 140,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderColor": "#2089dc",
+                      "borderRadius": 3,
+                      "borderWidth": 0.5,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 3,
+                  "shadowColor": "rgba(0,0,0, .4)",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 1,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "width": 140,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderColor": "#2089dc",
+                      "borderRadius": 3,
+                      "borderWidth": 0.5,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 15,
+              "marginBottom": 5,
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": 5,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 60,
+                "flexDirection": "row",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flex": 13,
+                  "paddingLeft": 8,
+                  "paddingRight": 2,
+                  "paddingVertical": 4,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "flex-start",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flex": 3,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    adjustsFontSizeToFit={true}
+                    numberOfLines={2}
+                    style={
+                      Object {
+                        "fontSize": 30,
+                        "fontWeight": "bold",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Another Event
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "gray",
+                        "fontSize": 12,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    January 1 11am
+                     - 
+                    January 1 11:30pm
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderTopColor": "#0033A0",
+                    "borderTopWidth": 2,
+                    "flex": 1,
+                    "justifyContent": "flex-start",
+                    "paddingTop": 2,
+                  }
+                }
+              >
+                <Text
+                  adjustsFontSizeToFit={true}
+                  numberOfLines={3}
+                  style={
+                    Object {
+                      "fontSize": 14,
+                      "textAlign": "left",
+                    }
+                  }
+                >
+                  Here is another event.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "borderRadius": 15,
+                  "flex": 6,
+                  "height": "92%",
+                  "marginRight": 5,
+                  "overflow": "hidden",
+                  "width": "100%",
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": null,
+                    "resizeMode": "cover",
+                    "width": null,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 20,
+                "flexDirection": "row",
+                "justifyContent": "space-evenly",
+                "marginTop": -10,
+                "padding": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 3,
+                  "shadowColor": "rgba(0,0,0, .4)",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 1,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "width": 140,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderColor": "#2089dc",
+                      "borderRadius": 3,
+                      "borderWidth": 0.5,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 3,
+                  "shadowColor": "rgba(0,0,0, .4)",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 1,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "width": 140,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderColor": "#2089dc",
+                      "borderRadius": 3,
+                      "borderWidth": 0.5,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 15,
+              "marginBottom": 5,
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": 5,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 60,
+                "flexDirection": "row",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flex": 13,
+                  "paddingLeft": 8,
+                  "paddingRight": 2,
+                  "paddingVertical": 4,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "flex-start",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flex": 3,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    adjustsFontSizeToFit={true}
+                    numberOfLines={2}
+                    style={
+                      Object {
+                        "fontSize": 30,
+                        "fontWeight": "bold",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Yet Another
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "gray",
+                        "fontSize": 12,
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    January 1 11am
+                     - 
+                    January 1 11:30pm
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderTopColor": "#0033A0",
+                    "borderTopWidth": 2,
+                    "flex": 1,
+                    "justifyContent": "flex-start",
+                    "paddingTop": 2,
+                  }
+                }
+              >
+                <Text
+                  adjustsFontSizeToFit={true}
+                  numberOfLines={3}
+                  style={
+                    Object {
+                      "fontSize": 14,
+                      "textAlign": "left",
+                    }
+                  }
+                >
+                  Here is another event.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "borderRadius": 15,
+                  "flex": 6,
+                  "height": "92%",
+                  "marginRight": 5,
+                  "overflow": "hidden",
+                  "width": "100%",
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": null,
+                    "resizeMode": "cover",
+                    "width": null,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 20,
+                "flexDirection": "row",
+                "justifyContent": "space-evenly",
+                "marginTop": -10,
+                "padding": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 3,
+                  "shadowColor": "rgba(0,0,0, .4)",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 1,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "width": 140,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderColor": "#2089dc",
+                      "borderRadius": 3,
+                      "borderWidth": 0.5,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 3,
+                  "shadowColor": "rgba(0,0,0, .4)",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 1,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "width": 140,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderColor": "#2089dc",
+                      "borderRadius": 3,
+                      "borderWidth": 0.5,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTSafeAreaView>
+  </View>
+</RCTScrollView>
+`;

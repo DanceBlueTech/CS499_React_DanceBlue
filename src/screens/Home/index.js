@@ -3,7 +3,7 @@ import React from "react";
 import { SafeAreaView, StyleSheet, View, ScrollView, Text, StatusBar } from "react-native";
 import { Header } from 'react-native-elements';
 
-import Sponsors from '../../components/sponsor/Sponsors';
+import Carousel from '../../components/Carousel/carousel';
 import HeaderImage from '../../components/countdown/HeaderImage';
 import CountdownView from '../../components/countdown/CountdownView';
 import Announcements from '../../components/announcement/Announcements';
@@ -16,7 +16,6 @@ export class HomeScreen extends React.Component {
     };
 
     render() {
-        const { navigate } = this.props.navigation;
         const countDownEnd = new Date("2020-12-31T23:59:59");
         const secondsToEnd = Math.floor((countDownEnd - Date.now()) / 1000);
         const eventName = 'DanceBlue 5K 🏃🏼‍♂';
@@ -28,7 +27,7 @@ export class HomeScreen extends React.Component {
                     <CountdownView name={eventName} time={secondsToEnd} />
                     <Announcements />
                     <Standings />
-                    <Sponsors />
+                    <Carousel />
                 </SafeAreaView>
             </ScrollView>
         );
